@@ -7,13 +7,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageViewBanner"
+        android:layout_width="353dp"
+        android:layout_height="271dp"
+        android:contentDescription="@string/imageViewBanner_AltText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mathkids" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="256dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="@string/editTextInches_Hint"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBanner" />
+
+    <Button
+        android:id="@+id/buttonConvert"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/buttonConvert_Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+
     <TextView
+        android:id="@+id/textViewResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonConvert"
+        app:layout_constraintVertical_bias="0.37" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">مبدل اینچ به سانتی متر</string>
+    <string name="imageViewBanner_AltText">بنر اصلی برنامه</string>
+    <string name="buttonConvert_Text">تبدیل</string>
+    <string name="editTextInches_Hint">مقدار اینچ را وارد کنید…</string>
+    <string name="toast_NotAValidDecimal">مقدار ورودی، معتبر نیست.</string>
+    <string name="text_ResultCM">%1$s سانتی متر</string>
+</resources>

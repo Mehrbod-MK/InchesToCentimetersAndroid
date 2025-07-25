@@ -3,4 +3,6 @@
     <string name="imageViewBanner_AltText">Math\'s banner</string>
     <string name="buttonConvert_Text">Convert</string>
     <string name="editTextInches_Hint">Enter inches…</string>
+    <string name="toast_NotAValidDecimal">Not a valid decimal number.</string>
+    <string name="text_ResultCM">%1$s cm</string>
 </resources>
